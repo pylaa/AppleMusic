@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/label_text_size"
+        android:padding="@dimen/dimen_marginTop"
+        android:textColor="@android:color/black"
+        android:text="Apple New Music Release for mm/dd/yyyy"
+        android:background="#EEEEEE"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FEFEFE"
+        android:layout_below="@+id/label"
+        android:scrollbars="vertical">
+    </android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>

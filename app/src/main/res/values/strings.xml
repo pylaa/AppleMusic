@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Recent Apple Music</string>
+    <string name="app_label">Recent Apple Music</string>
 </resources>

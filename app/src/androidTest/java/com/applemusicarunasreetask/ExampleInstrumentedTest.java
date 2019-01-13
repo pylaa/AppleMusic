@@ -22,5 +22,6 @@ public class ExampleInstrumentedTest {
         Context appContext = InstrumentationRegistry.getTargetContext();
 
         assertEquals("com.applemusicarunasreetask", appContext.getPackageName());
+        assertNotEquals("com.apple", appContext.getPackageName());
     }
 }

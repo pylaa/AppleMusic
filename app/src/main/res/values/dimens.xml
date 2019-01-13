@@ -3,4 +3,5 @@
     <dimen name="text_size">20sp</dimen>
     <dimen name="label_text_size">18sp</dimen>
     <dimen name="dimen_marginTop">20dp</dimen>
+    <dimen name="dimen_marginTop1">10dp</dimen>
 </resources>
